@@ -50,6 +50,7 @@ int main()
 ![Screenshot from 2022-07-23 10-58-40](https://user-images.githubusercontent.com/109052326/180592038-448674c7-63b8-44d8-a519-c09c3c9fe7ba.png)
 ![Screenshot from 2022-07-23 11-00-52](https://user-images.githubusercontent.com/109052326/180592039-aaf044d1-f6e7-4a82-bc74-8882c0a1fd10.png)
 
+## Code
 
 ```cpp
 #include <iostream>
@@ -105,6 +106,7 @@ int main()
 ![Screenshot from 2022-07-23 19-35-01](https://user-images.githubusercontent.com/109052326/180608581-cdc1e412-b321-4246-8837-795290c54f30.png)
 
 
+## Code
 
 ```cpp
 #include <bits/stdc++.h>
@@ -151,4 +153,131 @@ int main()
 
 ```
 ## 4. Nested Structures and C++ Dot Operator
+
+![Screenshot from 2022-07-23 19-39-16](https://user-images.githubusercontent.com/109052326/180608960-3ff31465-cb17-4114-be77-5f3842a9e761.png)
+![Screenshot from 2022-07-23 19-39-27](https://user-images.githubusercontent.com/109052326/180608964-bc87ed2a-79e8-46c3-8c78-977101ac0d2d.png)
+![Screenshot from 2022-07-23 19-40-53](https://user-images.githubusercontent.com/109052326/180608965-e9ea5a44-cc77-4b11-bde1-3759a3b6f089.png)
+![Screenshot from 2022-07-23 19-46-42](https://user-images.githubusercontent.com/109052326/180608966-1c623ee7-113e-4618-a53e-92de8365327a.png)
+![Screenshot from 2022-07-23 19-46-47](https://user-images.githubusercontent.com/109052326/180608968-b46cff84-4b0b-46ab-aa82-d0f123dc4edb.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a struct adddress
+struct address
+{
+    int house_no;
+    string street_name;
+    
+};
+
+// Make a struct student
+struct student
+{
+    string name;
+    int roll;
+    address add;
+    
+};
+
+// Main function
+int main()
+{
+   // Create a struct variable
+   student anil;
+   
+   // Assign the struct variable
+   anil.name="anil";
+   anil.roll=1234;
+   
+   // Nested struct assignment
+   anil.add.house_no=300;
+   anil.add.street_name="MG ROAD";
+   
+   // Print all the information
+   cout<<anil.name<<endl;
+   cout<<anil.roll<<endl;
+   cout<<anil.add.house_no<<endl;
+   cout<<anil.add.street_name<<endl;
+   
+   
+   return 0;
+}
+
+
+```
+
+## 5. Accessing C++ Nested Structure Members using Arrow Operator
+
+![Screenshot from 2022-07-23 19-48-17](https://user-images.githubusercontent.com/109052326/180609289-e38acf5c-3a6c-4e2a-ac66-1386b6f76f09.png)
+![Screenshot from 2022-07-23 19-49-46](https://user-images.githubusercontent.com/109052326/180609291-600f9487-4ad3-4582-9d21-0467cac38fdf.png)
+![Screenshot from 2022-07-23 19-49-57](https://user-images.githubusercontent.com/109052326/180609292-8d007d03-c9b7-44e3-affc-2acabcf018cb.png)
+![Screenshot from 2022-07-23 19-52-24](https://user-images.githubusercontent.com/109052326/180609294-20bbf36e-ebe1-499e-b1ba-85dafb225424.png)
+![Screenshot from 2022-07-23 19-52-32](https://user-images.githubusercontent.com/109052326/180609296-08c592ea-66fd-48a9-9ced-18236d5016e6.png)
+![Screenshot from 2022-07-23 19-53-23](https://user-images.githubusercontent.com/109052326/180609298-423262db-3be4-4422-bab8-c59eb22114ff.png)
+![Screenshot from 2022-07-23 19-53-34](https://user-images.githubusercontent.com/109052326/180609301-3a735233-ab40-4033-9b0c-85b25b31a558.png)
+![Screenshot from 2022-07-23 19-53-44](https://user-images.githubusercontent.com/109052326/180609303-9476984b-0673-4617-9260-8511ac2a6139.png)
+![Screenshot from 2022-07-23 19-53-46](https://user-images.githubusercontent.com/109052326/180609304-4195ef7c-9fa6-4ef5-ba28-b699b971676a.png)
+![Screenshot from 2022-07-23 19-54-12](https://user-images.githubusercontent.com/109052326/180609305-db280f6f-fb48-496c-96f7-180e1d86e921.png)
+![Screenshot from 2022-07-23 19-54-24](https://user-images.githubusercontent.com/109052326/180609306-d57b30ee-6c7f-4a11-8ab8-8872aca8da19.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a struct adddress
+struct address
+{
+    int house_no;
+    string street_name;
+    
+};
+
+// Make a struct student
+struct student
+{
+    string name;
+    int roll;
+    address add;
+    
+};
+
+// Main function
+int main()
+{
+   // Create a struct variable
+   student anil;
+   
+   // create the pointer of type structure
+   student *anilptr;
+   
+   // Take the address of anil into the anilptr
+   anilptr = &anil;
+   
+   // Assign the struct variable
+   anilptr->name="anil";
+   anilptr->roll=1234;
+   
+   // Nested struct assignment
+   anilptr->add.house_no=300;
+   anilptr->add.street_name="MG ROAD";
+   
+   // Print all the information
+   cout<<anilptr->name<<endl;
+   cout<<anilptr->roll<<endl;
+   cout<<anilptr->add.house_no<<endl;
+   cout<<anilptr->add.street_name<<endl;
+   
+   
+   return 0;
+}
+
+```
 
