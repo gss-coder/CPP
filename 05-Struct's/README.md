@@ -1,5 +1,6 @@
 ## 1. Introduction to Structures in C++
 
+
 ![Screenshot from 2022-07-23 10-40-32](https://user-images.githubusercontent.com/109052326/180591542-527edf5f-335e-4bf1-a79d-ae83055fea0f.png)
 ![Screenshot from 2022-07-23 10-42-23](https://user-images.githubusercontent.com/109052326/180591543-51f1778f-f941-40eb-9811-6af55b551907.png)
 ![Screenshot from 2022-07-23 10-43-37](https://user-images.githubusercontent.com/109052326/180591544-fe0f1d35-89fa-444d-97c7-c13642253b53.png)
