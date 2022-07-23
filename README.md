@@ -10,7 +10,7 @@ S.No | Topic Name | Notes Link | Youtube Link
 4 | Nested Structures and C++ Dot Operator | [Link](https://github.com/gss-coder/CPP/tree/main/05-Strucutres) | [Link](https://www.youtube.com/watch?v=MaTv85P2nnQ&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=44)
 5 | Accessing C++ Nested Structure Members using Arrow Operator | [Link](https://github.com/gss-coder/CPP/tree/main/05-Strucutres) | [Link](https://www.youtube.com/watch?v=EUx9pyGuf-4&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=45)
 
-07. Object Oriented Programming
+07. Object Oriented Programming Introduction
 
 S.No | Topic Name | Notes Link | Youtube Link
 -----|------------| -----------| ----------|
@@ -19,3 +19,14 @@ S.No | Topic Name | Notes Link | Youtube Link
 3 | Creating Objects from a Class in Different Ways in object oriented  | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=BsYvWqDihGU&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=58)
 4 | Scope Resolution Operator | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=59fy7la7yEI&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=59)
 5 | Private Access Specifier | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=6QHkXmLhY-g&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=60)
+
+08. Constructor 
+
+
+S.No | Topic Name | Notes Link | Youtube Link
+-----|------------| -----------| ----------|
+1 | Class Constructors | [Link](https://github.com/gss-coder/CPP/tree/main/08-Constructor) | [Link](https://www.youtube.com/watch?v=CyTSm0sUgi4&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=61)
+2 | Overloading Class Constructors | [Link](https://github.com/gss-coder/CPP/tree/main/08-Constructor) | [Link](https://www.youtube.com/watch?v=bk11sI0KoWk&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=62)
+3 | Default Class Constructor Parameters | [Link](https://github.com/gss-coder/CPP/tree/main/08-Constructor) | [Link](https://www.youtube.com/watch?v=0Gcy49Gin_k&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=63)
+4 | Destructors in a Class | [Link](https://github.com/gss-coder/CPP/tree/main/08-Constructor) | [Link](https://www.youtube.com/watch?v=Egm6DIiHTC4&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=64)
+5 | C++ Destructors to Release Resources with example | [Link](https://github.com/gss-coder/CPP/tree/main/08-Constructor) | [Link](https://www.youtube.com/watch?v=ZvWUHWvueQk&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=65)
