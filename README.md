@@ -16,6 +16,6 @@ S.No | Topic Name | Notes Link | Youtube Link
 -----|------------| -----------| ----------|
 1 | C++ Object Oriented Programming | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=xnh7ip5gpzc&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=56)
 2 | Class Properties, Methods, Members | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=qnCRKjPTnHM&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=57)
-3 | Creating Objects from a Class in Different Ways | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=BsYvWqDihGU&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=58)
+3 | Creating Objects from a Class in Different Ways in object oriented programming | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=BsYvWqDihGU&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=58)
 4 | Scope Resolution Operator | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=59fy7la7yEI&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=59)
 5 | Private Access Specifier | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=6QHkXmLhY-g&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=60)
