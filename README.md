@@ -25,7 +25,7 @@ S.No | Topic Name | Notes Link | Youtube Link
 
 S.No | Topic Name | Notes Link | Youtube Link
 -----|------------| -----------| ----------|
-1 | Class Constructors | [Link](https://github.com/gss-coder/CPP/tree/main/08-Constructor) | [Link](https://www.youtube.com/watch?v=CyTSm0sUgi4&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=61)
+1 | Class Constructors in object oriented Programming| [Link](https://github.com/gss-coder/CPP/tree/main/08-Constructor) | [Link](https://www.youtube.com/watch?v=CyTSm0sUgi4&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=61)
 2 | Overloading Class Constructors | [Link](https://github.com/gss-coder/CPP/tree/main/08-Constructor) | [Link](https://www.youtube.com/watch?v=bk11sI0KoWk&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=62)
 3 | Default Class Constructor Parameters | [Link](https://github.com/gss-coder/CPP/tree/main/08-Constructor) | [Link](https://www.youtube.com/watch?v=0Gcy49Gin_k&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=63)
 4 | Destructors in a Class | [Link](https://github.com/gss-coder/CPP/tree/main/08-Constructor) | [Link](https://www.youtube.com/watch?v=Egm6DIiHTC4&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=64)
