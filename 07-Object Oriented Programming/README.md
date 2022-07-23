@@ -76,4 +76,64 @@ int main()
 }
 
 
-``
+```
+
+## 3. Creating Objects from a Class in Different Ways in object oriented
+
+![Screenshot from 2022-07-23 20-43-38](https://user-images.githubusercontent.com/109052326/180611353-ec570626-f210-4618-b53a-e48edcae9366.png)
+![Screenshot from 2022-07-23 20-46-37](https://user-images.githubusercontent.com/109052326/180611355-1bfc846b-3202-4ba6-abe7-5c27f6395ca8.png)
+![Screenshot from 2022-07-23 20-47-33](https://user-images.githubusercontent.com/109052326/180611356-e04c75c0-342a-48a0-a029-3e1af37586d7.png)
+![Screenshot from 2022-07-23 20-47-35](https://user-images.githubusercontent.com/109052326/180611358-063b0bf4-a66b-46ef-a079-0bd8830511a6.png)
+![Screenshot from 2022-07-23 20-48-52](https://user-images.githubusercontent.com/109052326/180611360-65194818-441d-4af3-90c4-5e943985cedd.png)
+![Screenshot from 2022-07-23 20-48-54](https://user-images.githubusercontent.com/109052326/180611364-1a2b1c40-0cf3-4467-b227-1b91f8967cb7.png)
+
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Human class
+class Human
+{
+    public:
+        // Make a new variable
+        string name;
+        
+        // Make the introduce method
+        void introduce()
+        {
+            cout<<"Hie I am -> "<<name<<endl;
+        }
+};
+
+// Main function
+int main()
+{
+   // Create the new object of the class this will be stored into stack
+   Human ajay;
+   
+   // This will create the object into the heap and it will be created dynamically
+   Human *bunty = new Human();
+   
+   // Assign the values to the class
+   ajay.name= "Ajay";
+   
+   // Assign the values to the class memebers using ptr method
+   bunty->name= "Bunty";
+   
+   // Call the class method
+   ajay.introduce();
+   
+   // Call the class method
+   bunty->introduce();
+   return 0;
+}
+
+
+
+```
+
+
