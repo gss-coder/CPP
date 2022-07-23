@@ -133,7 +133,105 @@ int main()
 }
 
 
+```
+
+## 4. Scope Resolution Operator
+
+![Screenshot from 2022-07-23 20-54-53](https://user-images.githubusercontent.com/109052326/180612022-baf234a4-16a5-4a9c-b4cf-c013bdf05aee.png)
+![Screenshot from 2022-07-23 21-05-16](https://user-images.githubusercontent.com/109052326/180612024-81653ca7-309e-4147-a600-4d07363f5f7f.png)
+![Screenshot from 2022-07-23 21-05-34](https://user-images.githubusercontent.com/109052326/180612026-fcd4ab38-41e7-40b6-8115-9f5afba985ac.png)
+![Screenshot from 2022-07-23 21-05-37](https://user-images.githubusercontent.com/109052326/180612030-7f1b3444-8def-47cb-b61f-e60a143ff4da.png)
+![Screenshot from 2022-07-23 21-07-14](https://user-images.githubusercontent.com/109052326/180612033-011f0e3a-4c79-4521-a513-d96bb7c2f85c.png)
+![Screenshot from 2022-07-23 21-08-43](https://user-images.githubusercontent.com/109052326/180612111-82442822-9c06-40a8-8d63-0e834eb88213.png)
+![Screenshot from 2022-07-23 21-08-50](https://user-images.githubusercontent.com/109052326/180612119-23537f5f-37e6-4fb6-bf84-caf0f5191e1d.png)
+![Screenshot from 2022-07-23 21-09-14](https://user-images.githubusercontent.com/109052326/180612122-ac161a6e-95d8-40cd-9036-c8c835a227ae.png)
+![Screenshot from 2022-07-23 21-09-17](https://user-images.githubusercontent.com/109052326/180612126-debc7527-256e-47bb-a548-101231c3fbb8.png)
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Human class
+class Human
+{
+    public:
+        // Make a new variable
+        string name;
+        
+        // Make the introduce method
+        void introduce();
+};
+
+// Using the scope resolution operator
+void Human:: introduce()
+{
+    cout<<Human :: name<<endl;
+}
+
+// Main function
+int main()
+{
+   Human anil;
+   anil.name= "Anil";
+   anil.introduce();
+   return 0;
+}
+
 
 ```
 
+## 5. Private Access Specifier
 
+![Screenshot from 2022-07-23 21-10-52](https://user-images.githubusercontent.com/109052326/180612478-d42838f6-e061-4149-88f5-5bf18a20a757.png)
+![Screenshot from 2022-07-23 21-11-17](https://user-images.githubusercontent.com/109052326/180612479-a3d50d30-1ad6-4006-a5f1-2874addbe11a.png)
+![Screenshot from 2022-07-23 21-11-32](https://user-images.githubusercontent.com/109052326/180612482-1f710071-4b81-49bf-aa7d-8e515f5ed8e4.png)
+![Screenshot from 2022-07-23 21-11-35](https://user-images.githubusercontent.com/109052326/180612484-025d3cb0-3109-4359-86b0-a32378de06f2.png)
+![Screenshot from 2022-07-23 21-12-23](https://user-images.githubusercontent.com/109052326/180612486-b5ba9b66-a95c-4164-ad6c-7df0c5dae4b2.png)
+![Screenshot from 2022-07-23 21-12-35](https://user-images.githubusercontent.com/109052326/180612489-c057bf64-2c43-41ae-8e55-cefa2287d9f5.png)
+![Screenshot from 2022-07-23 21-12-38](https://user-images.githubusercontent.com/109052326/180612491-66583b11-f40f-46ca-83fb-ff1f23d7e7da.png)
+![Screenshot from 2022-07-23 21-16-27](https://user-images.githubusercontent.com/109052326/180612494-75396d9b-dbe8-4f07-be9b-f026c55acd22.png)
+![Screenshot from 2022-07-23 21-16-31](https://user-images.githubusercontent.com/109052326/180612496-88f8d92a-295f-4d93-92c9-ab71fdb7b8d7.png)
+![Screenshot from 2022-07-23 21-17-25](https://user-images.githubusercontent.com/109052326/180612498-07376313-118b-425a-87c2-009282d5bc2b.png)
+![Screenshot from 2022-07-23 21-17-39](https://user-images.githubusercontent.com/109052326/180612500-7e188297-167c-45e2-a8eb-1908016fc41f.png)
+![Screenshot from 2022-07-23 21-17-46](https://user-images.githubusercontent.com/109052326/180612502-5661e28c-2009-4d38-b6f7-186cf93dd3f4.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Human class
+class Human
+{
+    // Private memeber variables
+    private:
+        int age;
+    public:
+        // void display_age
+        void display_age()
+        {
+            cout<<age<<endl;
+        }
+        
+        // void set_age
+        void set_age(int value)
+        {
+            age= value;
+        }
+};
+
+// Main function
+int main()
+{
+   Human anil;
+   anil.set_age(24);
+   anil.display_age();
+   return 0;
+}
+
+
+```
