@@ -89,3 +89,66 @@ int main()
 
 ## 3. Passing Structure to Functions by Value, Pointer (Address)
 
+![Screenshot from 2022-07-23 11-07-30](https://user-images.githubusercontent.com/109052326/180608557-abc2a1d7-183d-42a6-a03a-86ee3232b242.png)
+![Screenshot from 2022-07-23 19-25-17](https://user-images.githubusercontent.com/109052326/180608560-a01b6de1-ac27-4430-a9d6-9abc35591fd2.png)
+![Screenshot from 2022-07-23 19-28-21](https://user-images.githubusercontent.com/109052326/180608561-7f9c6991-d5c2-4d7d-98b7-34ddf5763960.png)
+![Screenshot from 2022-07-23 19-29-23](https://user-images.githubusercontent.com/109052326/180608564-2deba668-c2ac-4a09-a4c5-95a5167ade77.png)
+![Screenshot from 2022-07-23 19-30-16](https://user-images.githubusercontent.com/109052326/180608566-8d8c550d-37f1-44e5-bb87-edb5b4099fcb.png)
+![Screenshot from 2022-07-23 19-31-17](https://user-images.githubusercontent.com/109052326/180608569-240cab4b-c90d-407b-b5ef-2841f495206c.png)
+![Screenshot from 2022-07-23 19-31-28](https://user-images.githubusercontent.com/109052326/180608571-ca821d05-3d07-4644-a6f6-7ac73478003c.png)
+![Screenshot from 2022-07-23 19-31-42](https://user-images.githubusercontent.com/109052326/180608572-969b906d-9310-4512-9a90-692ac2b96a27.png)
+![Screenshot from 2022-07-23 19-31-43](https://user-images.githubusercontent.com/109052326/180608574-6f338f28-537d-4749-b9f7-19907f964ffc.png)
+![Screenshot from 2022-07-23 19-31-47](https://user-images.githubusercontent.com/109052326/180608575-ec8c5ca7-daab-4a9a-aa7f-1fad29d723c4.png)
+![Screenshot from 2022-07-23 19-31-54](https://user-images.githubusercontent.com/109052326/180608576-b65969a4-a812-4c06-9066-e24be8478730.png)
+![Screenshot from 2022-07-23 19-34-47](https://user-images.githubusercontent.com/109052326/180608577-3c74b21b-d8ee-465b-879f-066c88a8d2cf.png)
+![Screenshot from 2022-07-23 19-34-53](https://user-images.githubusercontent.com/109052326/180608580-634f0771-f6f8-4765-ae0b-9205e5949194.png)
+![Screenshot from 2022-07-23 19-35-01](https://user-images.githubusercontent.com/109052326/180608581-cdc1e412-b321-4246-8837-795290c54f30.png)
+
+
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+struct student
+{
+    int rollno;
+    char sex;
+    int age;
+};
+
+void display(student s)
+{
+    cout<< s.rollno <<endl;
+    cout<<s.sex<<endl;
+    cout<<s.age<<endl;
+    
+    // This change will not be refelcted since its a pass by val
+    // s.rollno = 0000;
+
+}
+
+void show(student *s)
+{
+    cout<<s->rollno <<endl;
+    cout<<s->sex<<endl;
+    
+    // This change will be refelcted since its a pass by reference
+    s->rollno = 1111;
+    cout<<s->rollno<<endl;
+
+
+        
+}
+int main()
+{
+    student anil ={1234,'m',23};
+    display(anil);
+    show(&anil);
+    return 0;
+}
+
+
+```
+## 4. Nested Structures and C++ Dot Operator
+
