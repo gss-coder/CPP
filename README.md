@@ -1,6 +1,6 @@
 # CPP
 
-05. Structure in C++
+### 05. Structure in C++
 
 S.No | Topic Name | Notes Link | Youtube Link
 -----|------------| -----------| ----------|
@@ -10,7 +10,7 @@ S.No | Topic Name | Notes Link | Youtube Link
 4 | Nested Structures and C++ Dot Operator | [Link](https://github.com/gss-coder/CPP/tree/main/05-Strucutres) | [Link](https://www.youtube.com/watch?v=MaTv85P2nnQ&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=44)
 5 | Accessing C++ Nested Structure Members using Arrow Operator | [Link](https://github.com/gss-coder/CPP/tree/main/05-Strucutres) | [Link](https://www.youtube.com/watch?v=EUx9pyGuf-4&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=45)
 
-07. Object Oriented Programming Introduction
+### 07. Object Oriented Programming Introduction
 
 S.No | Topic Name | Notes Link | Youtube Link
 -----|------------| -----------| ----------|
@@ -20,7 +20,7 @@ S.No | Topic Name | Notes Link | Youtube Link
 4 | Scope Resolution Operator | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=59fy7la7yEI&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=59)
 5 | Private Access Specifier | [Link](https://github.com/gss-coder/CPP/tree/main/07-Object%20Oriented%20Programming) | [Link](https://www.youtube.com/watch?v=6QHkXmLhY-g&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=60)
 
-08. Constructor 
+### 08. Constructor 
 
 
 S.No | Topic Name | Notes Link | Youtube Link
