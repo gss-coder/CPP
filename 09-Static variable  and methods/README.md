@@ -132,3 +132,69 @@ int main()
 
 
 ```
+
+## 3. Friend Function
+
+![Screenshot from 2022-07-24 10-05-15](https://user-images.githubusercontent.com/109052326/180632584-9e6cd4f3-4068-4513-964d-a3865ee00e5c.png)
+![Screenshot from 2022-07-24 10-08-11](https://user-images.githubusercontent.com/109052326/180632591-d7c543ac-4c2f-4c5d-932c-e3036cea2bfe.png)
+![Screenshot from 2022-07-24 10-09-50](https://user-images.githubusercontent.com/109052326/180632593-f82097ea-a8b7-4bb0-a7aa-216a9ab2d63e.png)
+![Screenshot from 2022-07-24 10-10-07](https://user-images.githubusercontent.com/109052326/180632597-6c25d08d-63ee-464d-a559-7a3c6d3ff939.png)
+![Screenshot from 2022-07-24 10-14-48](https://user-images.githubusercontent.com/109052326/180632602-41136ba0-5253-42df-a876-8804426fbf72.png)
+![Screenshot from 2022-07-24 10-14-58](https://user-images.githubusercontent.com/109052326/180632603-6ab67ea2-a362-48dc-bc23-8a434a448ce6.png)
+![Screenshot from 2022-07-24 10-15-01](https://user-images.githubusercontent.com/109052326/180632604-769cf16b-0203-4646-a43e-1a451e6e794a.png)
+![Screenshot from 2022-07-24 10-15-35](https://user-images.githubusercontent.com/109052326/180632606-fba98d37-a4d4-44e1-bf9c-b01ba107576d.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a class
+class Human
+{
+   // Private member variables
+   int age;
+   string name;
+   
+   // Public 
+public:
+
+    // Make a constructor and assign the values
+    Human(string iname, int iage)
+    {
+        name= iname;
+        age= iage;
+    }
+    
+    // Make a method tellme
+    void tellme()
+    {
+        cout<<name<<endl;
+        cout<<age<<endl;
+    }
+   
+// Make a friend function 
+friend void display(Human h);
+
+};
+
+// Make a display method and pass object 
+void display(Human man)
+{
+    cout<<man.name<<endl;
+    cout<<man.age<<endl;
+    
+}
+
+// Main function
+int main()
+{
+  Human ajay("Ajay",24);
+  display(ajay);
+   return 0;
+}
+
+
+```
