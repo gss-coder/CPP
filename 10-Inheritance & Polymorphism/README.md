@@ -167,8 +167,302 @@ class D : private A    // 'private' is default for classes
 
 ## 4. Public Inheritance in C++
 
+![Screenshot from 2022-07-24 15-07-29](https://user-images.githubusercontent.com/109052326/180642276-4671ebcb-f0ee-467e-9a32-dd63b54f2d5c.png)
+![Screenshot from 2022-07-24 15-09-33](https://user-images.githubusercontent.com/109052326/180642279-1c5c5dc2-b7f0-4b37-9b73-55c339e36b66.png)
+![Screenshot from 2022-07-24 15-39-24](https://user-images.githubusercontent.com/109052326/180642282-144d2e6e-3196-4d7a-b0be-e339e94fe20d.png)
+
+
 ## Code
 
 ```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a Base class
+class Person
+{
+    
+    protected:
+        string name;
+    public:
+        void set_name(string iname)
+        {
+            name= iname;
+        }
+};
+
+
+// Make a subclass/ child class / derived class
+class student : public Person
+{
+    public:
+    void introduce()
+    {
+        cout<<"Hie I am= "<<name<<endl;
+    }
+};
+
+// Main function
+int main()
+{
+    student anil;
+    anil.set_name("Anil");
+    anil.introduce();
+    
+    return 0;
+}
+
+
+```
+
+## 5. Protected Inheritance in C++
+
+![Screenshot from 2022-07-24 15-42-01](https://user-images.githubusercontent.com/109052326/180642542-d89fd104-1668-4da1-942f-5bc48154f11e.png)
+![Screenshot from 2022-07-24 15-42-07](https://user-images.githubusercontent.com/109052326/180642546-de2348b3-2804-426e-8448-748e10785178.png)
+![Screenshot from 2022-07-24 15-42-12](https://user-images.githubusercontent.com/109052326/180642548-2b08fd9d-6a88-4aff-a6a8-16600a159695.png)
+![Screenshot from 2022-07-24 15-42-40](https://user-images.githubusercontent.com/109052326/180642550-40db5534-b8d8-4091-8ea5-5f103019574f.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a Base class
+class Person
+{
+    
+    protected:
+        string name;
+    public:
+        void set_name(string iname)
+        {
+            name= iname;
+        }
+};
+
+
+// Make a subclass/ child class / derived class
+class student : protected Person
+{
+    public:
+    
+    void introduce()
+    {
+        cout<<"Hie I am= "<<name<<endl;
+    }
+    
+    void set_student_name(string iname)
+    {
+        set_name(iname);
+    }
+};
+
+// Main function
+int main()
+{
+    student anil;
+    anil.set_student_name("Anil");
+    anil.introduce();
+    
+    return 0;
+}
+
+```
+
+## 6. Private Inheritance in C++
+
+![Screenshot from 2022-07-24 15-46-43](https://user-images.githubusercontent.com/109052326/180642919-41c36049-6a99-4e45-9e49-ebbe90f736ca.png)
+![Screenshot from 2022-07-24 15-47-27](https://user-images.githubusercontent.com/109052326/180642922-8f6945f6-0ea9-4dad-9441-a987f0d88581.png)
+![Screenshot from 2022-07-24 15-48-26](https://user-images.githubusercontent.com/109052326/180642923-ebc38ecc-0ca8-4aaa-9c98-80924f8e2ff5.png)
+![Screenshot from 2022-07-24 15-48-29](https://user-images.githubusercontent.com/109052326/180642924-a2a13b19-4f7b-4972-a4b7-12437fbc53cb.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a Base class
+class Person
+{
+    
+    protected:
+        string name;
+    public:
+        void set_name(string iname)
+        {
+            name= iname;
+        }
+};
+
+
+// Make a subclass/ child class / derived class
+class student : private Person
+{
+    public:
+     
+    void introduce()
+    {
+        cout<<"Hie I am= "<<name<<endl;
+    }
+    
+    void set_student_name(string iname)
+    {
+        set_name(iname);
+    }
+};
+
+class g_student : public student
+{
+    public:
+        void set_g_student_name(string iname)
+        {
+            set_student_name(iname);
+            
+        }
+};
+
+// Main function
+int main()
+{
+    g_student anil;
+    anil.set_student_name("Anil");
+    anil.introduce();
+    
+    return 0;
+}
+
+
+```
+
+## 7. Changing Access Level of Base Class Members
+
+![Screenshot from 2022-07-24 15-57-18](https://user-images.githubusercontent.com/109052326/180643141-bfcf550a-f576-4278-8917-c81dfedbfb81.png)
+![Screenshot from 2022-07-24 15-58-48](https://user-images.githubusercontent.com/109052326/180643143-227f850c-0c51-4fb5-9d68-4767c1798619.png)
+![Screenshot from 2022-07-24 15-58-53](https://user-images.githubusercontent.com/109052326/180643144-eb93f891-d89a-4134-af05-aa22e02b3358.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a Base class
+class Person
+{
+    
+    protected:
+        string name;
+    public:
+        void set_name(string iname)
+        {
+            name= iname;
+        }
+};
+
+
+// Make a subclass/ child class / derived class
+class student : private Person
+{
+    public:
+    
+    // Changing the access level 
+    using Person :: name;
+    using Person :: set_name;
+    
+    
+    void introduce()
+    {
+        cout<<"Hie I am= "<<name<<endl;
+    }
+    
+    void set_student_name(string iname)
+    {
+        set_name(iname);
+    }
+};
+
+class g_student : public student
+{
+    public:
+        void set_g_student_name(string iname)
+        {
+            set_student_name(iname);
+            
+        }
+};
+
+// Main function
+int main()
+{
+    student anil;
+    anil.set_name("Anil");
+    anil.introduce();
+    
+    return 0;
+}
+
+
+```
+
+## 8. Order of Execution of Constructors and Destructors in Inheritance
+
+![Screenshot from 2022-07-24 16-03-38](https://user-images.githubusercontent.com/109052326/180643380-b76fd3f5-36f5-4b72-aa3c-cb690ad836e4.png)
+![Screenshot from 2022-07-24 16-07-08](https://user-images.githubusercontent.com/109052326/180643381-0faf99df-16eb-4dee-8074-17c2bf5f6fcb.png)
+![Screenshot from 2022-07-24 16-07-14](https://user-images.githubusercontent.com/109052326/180643382-c43d6d7f-db15-4977-af01-744cb122e34e.png)
+![Screenshot from 2022-07-24 16-07-37](https://user-images.githubusercontent.com/109052326/180643383-b0896e4f-c140-479d-bbc1-921867e721ca.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a Base class
+class Person
+{
+    public:
+    
+        Person()
+        {
+            cout<<"Const of person class called"<<endl;
+        }
+        
+        ~Person()
+        {
+            cout<<"Desctructor of person class called"<<endl;
+        }
+};
+
+
+// Make a subclass/ child class / derived class
+class student : public Person
+{
+     public:
+    
+        student()
+        {
+            cout<<"Const of student class called"<<endl;
+        }
+        
+        ~student()
+        {
+            cout<<"Desctructor of student class called"<<endl;
+        }
+};
+
+// Main function
+int main()
+{
+    student anil;
+ 
+    return 0;
+}
+
 
 ```
