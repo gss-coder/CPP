@@ -253,3 +253,66 @@ int main()
 
 
 ```
+
+## 5. Nested Classes or Inner classes in C++
+
+![Screenshot from 2022-07-24 21-28-41](https://user-images.githubusercontent.com/109052326/180656014-0224447f-d8b2-4fb2-9faf-a961df4cd518.png)
+![Screenshot from 2022-07-24 21-30-19](https://user-images.githubusercontent.com/109052326/180656019-dfe127d7-53e9-431a-b413-0e08bce539c2.png)
+![Screenshot from 2022-07-24 21-31-03](https://user-images.githubusercontent.com/109052326/180656021-4dd08db3-96ed-44e9-8083-26256d39b7d7.png)
+![Screenshot from 2022-07-24 21-31-12](https://user-images.githubusercontent.com/109052326/180656023-582db1b5-235a-4e1f-9be9-67f4aba4ac59.png)
+![Screenshot from 2022-07-24 21-33-33](https://user-images.githubusercontent.com/109052326/180656024-6b4b0fcd-9b5d-4bca-9f0d-6114a5a639af.png)
+![Screenshot from 2022-07-24 21-33-44](https://user-images.githubusercontent.com/109052326/180656027-8fbef4df-66d5-4f29-bf84-f1fbe53216e7.png)
+![Screenshot from 2022-07-24 21-33-45](https://user-images.githubusercontent.com/109052326/180656029-c31046ba-f0db-4e58-84af-5439abe2f6a6.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class person
+{
+    public:
+        string name;
+        
+    class address
+    {
+        public:
+            string country;
+            string street;
+            int hno;
+    };
+    
+    address ad;
+    
+    void address_please()
+    {
+        cout<<name<<endl<<ad.country<<endl<<ad.street<<endl<<ad.hno<<endl;
+    }
+};
+
+// Main function
+int main()
+{
+    person p;
+    p.name= "Ajay";
+    p.ad.country="India";
+    p.ad.street = "MG ROAD";
+    p.ad.hno= 1234;
+    p.address_please();
+    return 0;
+}
+
+
+```
+
+## 6. Local Classes in C++
+
+
+![Screenshot from 2022-07-24 21-37-31](https://user-images.githubusercontent.com/109052326/180656153-90db9f4d-a157-4a4d-8dfc-7e483d2bb992.png)
+![Screenshot from 2022-07-24 21-38-49](https://user-images.githubusercontent.com/109052326/180656154-6644dea2-9da1-44af-8c14-3a4551e6b4b9.png)
+![Screenshot from 2022-07-24 21-39-06](https://user-images.githubusercontent.com/109052326/180656158-97b1d6d5-6de4-4f34-b96c-1e1aac5ce412.png)
+![Screenshot from 2022-07-24 21-39-08](https://user-images.githubusercontent.com/109052326/180656159-a0585d04-489a-42d4-ab66-a2559043c017.png)
+![Screenshot from 2022-07-24 21-39-28](https://user-images.githubusercontent.com/109052326/180656160-7de773c9-dba7-45de-882b-b45543a2c3a8.png)
+
