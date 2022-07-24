@@ -59,12 +59,17 @@ S.No | Topic Name | Notes Link | Youtube Link
 12 |  Accessing the Overridden Methods in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=E9Dn-Y4VIQE&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=80)
 13 | C++ this Keyword | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=uVsoUyDO8Ow&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=81)
 14 | C++ Calling Methods Using Base Class Type | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=ylShsr2ebjs&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=82)
-15 | Polymorphism in C++ and Virtual Functions / Methods | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=R5qd8X64szs&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=83)
-16 | C++ Virtual Function / Inherited Attributes, Hierarchical Nature | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=NWIMUcq18vQ&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=84)
-17 | C++ Pure Virtual Functions, Abstract Classes | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=FA5bvYW4iUc&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=85)
-18 | C++ Diamond problem in OOPS, Solution using Virtual Inheritance with Example | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=7Zpuz4T4SGw&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=86)
-19 | Nested Classes or Inner classes in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=C5X7h6h_tks&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=87)
-20 | Local Classes in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=fr1b3ST0M7M&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=88)
+
+## 11. Virtual functions
+
+S.No | Topic Name | Notes Link | Youtube Link
+-----|------------| -----------| ----------|
+1 | Polymorphism in C++ and Virtual Functions / Methods | [Link](https://github.com/gss-coder/CPP/tree/main/11-Virtual%20Functions) | [Link](https://www.youtube.com/watch?v=R5qd8X64szs&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=83)
+2 | C++ Virtual Function / Inherited Attributes, Hierarchical Nature | [Link](https://github.com/gss-coder/CPP/tree/main/11-Virtual%20Functions) | [Link](https://www.youtube.com/watch?v=NWIMUcq18vQ&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=84)
+3 | C++ Pure Virtual Functions, Abstract Classes | [Link](https://github.com/gss-coder/CPP/tree/main/11-Virtual%20Functions) | [Link](https://www.youtube.com/watch?v=FA5bvYW4iUc&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=85)
+4 | C++ Diamond problem in OOPS, Solution using Virtual Inheritance with Example | [Link](https://github.com/gss-coder/CPP/tree/main/11-Virtual%20Functions) | [Link](https://www.youtube.com/watch?v=7Zpuz4T4SGw&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=86)
+5 | Nested Classes or Inner classes in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/11-Virtual%20Functions) | [Link](https://www.youtube.com/watch?v=C5X7h6h_tks&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=87)
+6 | Local Classes in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/11-Virtual%20Functions) | [Link](https://www.youtube.com/watch?v=fr1b3ST0M7M&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=88)
 
 
 
