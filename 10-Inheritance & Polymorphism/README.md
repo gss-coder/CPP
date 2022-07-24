@@ -466,3 +466,203 @@ int main()
 
 
 ```
+
+## 9. C++ Multiple Inheritance Explained
+
+![Screenshot from 2022-07-24 16-11-50](https://user-images.githubusercontent.com/109052326/180643812-68e61615-e5a9-4843-8745-b563d2ec9f01.png)
+![Screenshot from 2022-07-24 16-12-34](https://user-images.githubusercontent.com/109052326/180643814-17e4c7d6-344b-4fac-bd26-114a96e6f9f4.png)
+![Screenshot from 2022-07-24 16-19-46](https://user-images.githubusercontent.com/109052326/180643818-98d1923a-1491-4599-a6cd-5b8b5d4e62bd.png)
+![Screenshot from 2022-07-24 16-20-12](https://user-images.githubusercontent.com/109052326/180643823-fdfd6628-b15e-4a66-9479-1654f1642405.png)
+![Screenshot from 2022-07-24 16-20-14](https://user-images.githubusercontent.com/109052326/180643827-bd277e7c-8c06-4548-9160-7081a6447612.png)
+![Screenshot from 2022-07-24 16-22-27](https://user-images.githubusercontent.com/109052326/180643828-e1634cc4-6c71-41ce-bea6-cf72736ef581.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a Base class
+class father
+{
+    public:
+        int height;
+        
+        void askfather()
+        {
+            cout<<"I am ur father ask me"<<endl;
+        }
+};
+
+// Make a base class
+class Mother
+{
+    public:
+        string skincolor;
+        
+        void askmother()
+        {
+            cout<<"I am ur mother ask me"<<endl;
+        }
+};
+
+// Make a subclass/ child class / derived class
+class child : public father , public  Mother
+{
+    public:
+    
+    void askparents()
+    {
+        cout<<"I am asking my parent's"<<endl;
+    }
+    
+    void set_color_and_height(string icolor, int iheight)
+    {
+        skincolor = icolor;
+        height = iheight;
+    }
+    
+    void display()
+    {
+        cout<<"Height -> "<<height<<"Color -> "<<skincolor<<endl;
+    }
+};
+
+
+// Main function
+int main()
+{
+    child anil;
+    anil.set_color_and_height("White", 6);
+    anil.display();
+    anil.askfather();
+    anil.askmother();
+    
+ 
+    return 0;
+}
+
+
+```
+
+## 10. C++ Calling and Passing Values to Base Class Constructor in Derived Class
+
+![Screenshot from 2022-07-24 16-24-12](https://user-images.githubusercontent.com/109052326/180646284-b9e1c1aa-f0a9-4c74-9fca-19be85ad97aa.png)
+![Screenshot from 2022-07-24 16-24-14](https://user-images.githubusercontent.com/109052326/180646287-d80a3560-9367-4354-9904-e8b1900f4fbe.png)
+![Screenshot from 2022-07-24 16-25-53](https://user-images.githubusercontent.com/109052326/180646288-a88c0fe5-395d-424e-af18-5fa0ebbc24e6.png)
+![Screenshot from 2022-07-24 16-25-58](https://user-images.githubusercontent.com/109052326/180646289-5f0f2369-3ed3-49d8-8959-e56597b84aa6.png)
+![Screenshot from 2022-07-24 16-31-51](https://user-images.githubusercontent.com/109052326/180646291-b46dd1e2-dea2-4c17-9b7b-5232c7efabfb.png)
+![Screenshot from 2022-07-24 16-32-11](https://user-images.githubusercontent.com/109052326/180646292-849a13dc-2c0b-4d57-8f65-f4d362542884.png)
+![Screenshot from 2022-07-24 16-32-17](https://user-images.githubusercontent.com/109052326/180646295-35068982-3cf1-487e-a83f-56c52c324bce.png)
+![Screenshot from 2022-07-24 16-32-22](https://user-images.githubusercontent.com/109052326/180646296-fe73dcbd-4333-41e4-9e70-3900c5bfdd61.png)
+![Screenshot from 2022-07-24 16-32-34](https://user-images.githubusercontent.com/109052326/180646297-b364b426-76b1-4330-9f41-2f1d0ee0849e.png)
+![Screenshot from 2022-07-24 16-33-59](https://user-images.githubusercontent.com/109052326/180646298-d3510af6-ce5d-46df-9219-8696a52368c2.png)
+![Screenshot from 2022-07-24 17-38-32](https://user-images.githubusercontent.com/109052326/180646299-cb39f9e3-d1dd-4a03-a013-5d8ddc904c1f.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a Base class
+class father
+{
+    public:
+        int height;
+        
+        father(int h)
+        {
+            cout<<"Constructor of the father is called.."<<endl;
+            height = h;
+        }
+};
+
+
+// Make a subclass/ child class / derived class
+class child : public father 
+{
+    public:
+    child(int x) : father(x)
+    {
+        cout<<"Child class construcutor.. "<<endl;
+    }
+    
+    void display()
+    {
+        cout<<"Height is= "<<height<<endl;
+    }
+    
+};
+
+
+// Main function
+int main()
+{
+    child anil(244);
+    anil.display();
+    return 0;
+}
+```
+
+```cpp
+
+#include <bits/stdc++.h>
+using namespace std;
+
+// Make a Base class
+class father
+{
+    public:
+        int height;
+        
+        father()
+        {
+            cout<<"Const of the father is called.."<<endl;
+        }
+};
+
+class mother
+{
+    protected:
+        string skincolor;
+        
+    public:
+    
+        mother()
+        {
+            cout<<"Const of the mother class"<<endl;
+        }
+};
+
+// Make a subclass/ child class / derived class
+class child : public father , public mother
+{
+    public:
+    child(int x,string sk) : father() , mother()
+    {
+        height = x;
+        skincolor = sk;
+        cout<<"Child class construcutor.. "<<endl;
+    }
+    
+    void display()
+    {
+        cout<<"Height is= "<<height<<endl;
+        cout<<"Skin color is= "<<skincolor<<endl;
+    }
+    
+};
+
+
+// Main function
+int main()
+{
+    child anil(244,"White");
+    anil.display();
+    return 0;
+}
+
+```
