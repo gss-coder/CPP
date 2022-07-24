@@ -273,3 +273,70 @@ int main()
 
 
 ```
+
+## 5. C++ Destructors to Release Resources with example
+
+![Screenshot from 2022-07-24 08-42-11](https://user-images.githubusercontent.com/109052326/180630798-f0ddadb6-cbeb-438c-9b32-60152968a36c.png)
+![Screenshot from 2022-07-24 08-44-16](https://user-images.githubusercontent.com/109052326/180630803-08ed654a-d6ec-4df9-9781-6c15742b5963.png)
+![Screenshot from 2022-07-24 08-47-32](https://user-images.githubusercontent.com/109052326/180630806-1c1aecba-2ef6-41ec-88c6-b50cb0b9d037.png)
+![Screenshot from 2022-07-24 08-48-32](https://user-images.githubusercontent.com/109052326/180630808-48751d26-e970-4626-b004-1a2db9bb231c.png)
+![Screenshot from 2022-07-24 08-48-38](https://user-images.githubusercontent.com/109052326/180630809-86008de6-fbba-47e2-b249-cc17aa2a53a1.png)
+![Screenshot from 2022-07-24 08-48-48](https://user-images.githubusercontent.com/109052326/180630812-f4371d68-1cd0-41f4-8d67-b8b339724b6f.png)
+![Screenshot from 2022-07-24 08-50-19](https://user-images.githubusercontent.com/109052326/180630814-3548737d-094a-4c6b-aee0-1ecd02a59ac5.png)
+![Screenshot from 2022-07-24 08-50-36](https://user-images.githubusercontent.com/109052326/180630815-becce8f1-0cb0-468a-8ad9-1c54f60383cb.png)
+![Screenshot from 2022-07-24 08-50-40](https://user-images.githubusercontent.com/109052326/180630817-63a7e7f7-2d9c-420a-b1bc-aa16834f5e20.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Human class
+class Human
+{   
+    string *name;
+    int *age;
+public:
+    
+    // Constructor called while object creation
+    Human(string iname, int age1)
+    {
+        // Create the new object
+        name = new string;
+        age= new int;
+        
+        // Assign the values
+        *name= iname;
+        *age= age1;
+        
+    }
+    
+    void display()
+    {
+        cout<<"Hie i am-> "<<*name<<" My age is-> "<<*age<<endl;
+    }
+    
+    // Descructor called while object is deleted from memory
+    ~Human()
+    {
+        delete name;
+        delete age;
+        cout<<"All memories released"<<endl;
+    }
+    
+    
+};
+
+// Main function
+int main()
+{
+   Human *anil = new Human("Ajay",25);
+   anil->display();
+   delete anil;
+   return 0;
+}
+
+
+```
