@@ -37,6 +37,6 @@ S.No | Topic Name | Notes Link | Youtube Link
 S.No | Topic Name | Notes Link | Youtube Link
 -----|------------| -----------| ----------|
 1 | C++ Static Variables and Members in Class | [Link](https://github.com/gss-coder/CPP/tree/main/09-Static%20variable%20%20and%20methods) | [Link](https://www.youtube.com/watch?v=-WRllQLW8RE&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=66)
-2 | C++ Static Methods in Classes CPP Object Oriented | [Link](https://github.com/gss-coder/CPP/tree/main/09-Static%20variable%20%20and%20methods) | [Link](https://www.youtube.com/watch?v=u-lQOQvzBuY&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=67)
+2 | C++ Static Methods in Classes CPP Object Oriented Programming | [Link](https://github.com/gss-coder/CPP/tree/main/09-Static%20variable%20%20and%20methods) | [Link](https://www.youtube.com/watch?v=u-lQOQvzBuY&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=67)
 3 | Friend Function | [Link](https://github.com/gss-coder/CPP/tree/main/09-Static%20variable%20%20and%20methods) | [Link](https://www.youtube.com/watch?v=FErlySnTBWc&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=68)
 
