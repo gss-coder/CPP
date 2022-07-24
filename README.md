@@ -51,7 +51,10 @@ S.No | Topic Name | Notes Link | Youtube Link
 4 | Public Inheritance in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=q8EUCNAsn6E&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=72)
 5 | Protected Inheritance in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=ClUQXuwxyH8&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=73)
 6 | Private Inheritance in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=reWA2RBdFAw&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=74)
-7 | Changing Access Level of Base Class Members | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=reWA2RBdFAw&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=74)
+7 | Changing Access Level of Base Class Members | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=USHIgMBJ190&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=75)
+8 |   Order of Execution of Constructors and Destructors in Inheritance | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=fCK7sLu0G0Y&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=76)
+9 | C++ Multiple Inheritance Explained | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=JZwBW0nYzsk&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=77)
+10 | C++ Calling and Passing Values to Base Class Constructor in Derived Class | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=7ucLWfWzqg8&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=78)
 
 
 
