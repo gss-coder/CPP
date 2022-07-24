@@ -40,3 +40,26 @@ S.No | Topic Name | Notes Link | Youtube Link
 2 | C++ Static Methods in Classes CPP Object Oriented Programming | [Link](https://github.com/gss-coder/CPP/tree/main/09-Static%20variable%20%20and%20methods) | [Link](https://www.youtube.com/watch?v=u-lQOQvzBuY&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=67)
 3 | Friend Function | [Link](https://github.com/gss-coder/CPP/tree/main/09-Static%20variable%20%20and%20methods) | [Link](https://www.youtube.com/watch?v=FErlySnTBWc&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=68)
 
+
+## 10. Inheritance and polymorphism
+
+S.No | Topic Name | Notes Link | Youtube Link
+-----|------------| -----------| ----------|
+1 | Inheritance, Poly Morphism - Introduction | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=zsqhrxlp-Fo&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=69)
+2 | C++ Protected Access Modifier in Classes | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=nW0hf2-jaIM&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=70)
+3 | C++ Access Control and Inheritance | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=XRlo8aOUvyU&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=71)
+4 | Public Inheritance in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=q8EUCNAsn6E&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=72)
+5 | Protected Inheritance in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=ClUQXuwxyH8&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=73)
+6 | Private Inheritance in C++ | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=reWA2RBdFAw&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=74)
+7 | Changing Access Level of Base Class Members | [Link](https://github.com/gss-coder/CPP/tree/main/10-Inheritance%20%26%20Polymorphism) | [Link](https://www.youtube.com/watch?v=reWA2RBdFAw&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C&index=74)
+
+
+
+
+
+
+
+
+
+
+
