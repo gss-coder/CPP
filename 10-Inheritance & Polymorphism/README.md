@@ -666,3 +666,211 @@ int main()
 }
 
 ```
+
+## 11. C++ Overriding Base Class Methods in Derived Class
+
+![Screenshot from 2022-07-24 18-07-26](https://user-images.githubusercontent.com/109052326/180647518-c75ed13b-8bf8-4696-aed9-a9c311e4163e.png)
+![Screenshot from 2022-07-24 18-08-17](https://user-images.githubusercontent.com/109052326/180647522-22275b27-399b-4991-a8d6-244fb61a7136.png)
+![Screenshot from 2022-07-24 18-08-39](https://user-images.githubusercontent.com/109052326/180647524-ed9ad48b-19b1-4555-b4ae-7b315c801924.png)
+![Screenshot from 2022-07-24 18-10-58](https://user-images.githubusercontent.com/109052326/180647528-02aa4c37-f4a9-4577-8403-59a14f4559d6.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class Person
+{
+    public:
+        
+        void introduce()
+        {
+            cout<<"Hi i am a person"<<endl;
+        }
+};
+
+class student : public Person
+{
+    public:
+        
+        // Method overriding in c++
+        void introduce()
+        {
+            cout<<"Hie i am a child"<<endl;
+        }
+};
+
+// Main function
+int main()
+{
+    student anil;
+    anil.introduce();
+    return 0;
+}
+
+
+```
+
+
+## 12. Accessing the Overridden Methods in C++
+
+![Screenshot from 2022-07-24 18-12-29](https://user-images.githubusercontent.com/109052326/180647852-b5a4dfb6-045b-49e8-8d17-6aa64b6ce8a2.png)
+![Screenshot from 2022-07-24 18-12-42](https://user-images.githubusercontent.com/109052326/180647855-c4c95477-8246-44f1-a9f4-8ab7593eacb0.png)
+![Screenshot from 2022-07-24 18-18-38](https://user-images.githubusercontent.com/109052326/180647857-edc3fabe-7738-455b-a4bb-12017b3295e4.png)
+![Screenshot from 2022-07-24 18-18-48](https://user-images.githubusercontent.com/109052326/180647858-a921aa20-9a3a-4565-a184-759aac9bd46b.png)
+![Screenshot from 2022-07-24 18-19-09](https://user-images.githubusercontent.com/109052326/180647859-3c7096d4-8e43-4e9d-a1a7-2471ab427c45.png)
+![Screenshot from 2022-07-24 18-19-14](https://user-images.githubusercontent.com/109052326/180647864-05f5d64f-7690-4afa-b43b-b6b47e75adf4.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class Person
+{
+    public:
+        
+        void introduce()
+        {
+            cout<<"Hi i am a person"<<endl;
+        }
+};
+
+class student : public Person
+{
+    public:
+        
+        // Method overriding in c++
+        void introduce()
+        {   
+            Person :: introduce();
+            cout<<"Hie i am a child"<<endl;
+        }
+       
+};
+
+// Main function
+int main()
+{
+    student anil;
+    anil.introduce();
+    return 0;
+}
+
+
+```
+
+## 13. C++ this Keyword
+
+![Screenshot from 2022-07-24 18-23-41](https://user-images.githubusercontent.com/109052326/180648112-8612fd13-f084-4495-828d-92faa63520b5.png)
+![Screenshot from 2022-07-24 18-25-22](https://user-images.githubusercontent.com/109052326/180648116-f339ad97-17d6-4f6d-9100-2d4a742607e3.png)
+![Screenshot from 2022-07-24 18-25-42](https://user-images.githubusercontent.com/109052326/180648122-462252de-0c18-42c2-ba47-7647bdd0a514.png)
+![Screenshot from 2022-07-24 18-26-04](https://user-images.githubusercontent.com/109052326/180648124-cf208bb8-3c08-4162-b2a3-3f3bc83e4398.png)
+![Screenshot from 2022-07-24 18-26-07](https://user-images.githubusercontent.com/109052326/180648128-82a3ac54-04b7-4fc3-b84e-f17314c2fe06.png)
+![Screenshot from 2022-07-24 18-26-20](https://user-images.githubusercontent.com/109052326/180648132-bf8719e5-3474-492b-8627-7e15057640c2.png)
+![Screenshot from 2022-07-24 18-26-22](https://user-images.githubusercontent.com/109052326/180648134-e997257b-e6c1-4e4e-bf1a-f934b41053ff.png)
+![Screenshot from 2022-07-24 18-29-21](https://user-images.githubusercontent.com/109052326/180648136-5ac706d5-7689-4372-a601-784cdfcb2f62.png)
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class Person
+{
+    private:
+        int age;
+        
+    public:
+        void set_age(int age)
+        {
+            this->age= age;
+        }
+    
+        void show_age()
+        {
+            cout<<this->age<<endl;
+        }
+                
+};
+
+// Main function
+int main()
+{
+    Person anil;
+    anil.set_age(29);
+    anil.show_age();
+    return 0;
+}
+
+
+```
+
+
+## 14. C++ Calling Methods Using Base Class Type
+
+![Screenshot from 2022-07-24 18-31-01](https://user-images.githubusercontent.com/109052326/180648360-946ef76e-1f3d-4e6a-8e6c-d56903772be7.png)
+![Screenshot from 2022-07-24 18-31-51](https://user-images.githubusercontent.com/109052326/180648363-1db67d8b-5b25-45b2-908d-8998efc8c91c.png)
+![Screenshot from 2022-07-24 18-32-43](https://user-images.githubusercontent.com/109052326/180648365-b0da02e2-20f7-47c0-8476-e3cdfb5c2334.png)
+![Screenshot from 2022-07-24 18-36-17](https://user-images.githubusercontent.com/109052326/180648367-c5661387-59b6-48bb-899a-8a1f2bc640d7.png)
+![Screenshot from 2022-07-24 18-36-18](https://user-images.githubusercontent.com/109052326/180648369-3a554c0a-cf2f-4819-981a-9b90ba19ff7f.png)
+
+
+## Code
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class Person
+{
+    public:
+    
+    void introduce()
+    {
+        cout<<"Hey from person"<<endl;
+    }
+                
+};
+
+class Student : public Person
+{
+    public:
+    
+    void introduce()
+    {
+        cout<<"Hey from student"<<endl;
+    }
+};
+
+void whos_this(Person p)
+{
+    p.introduce();
+}
+
+// Main function
+int main()
+{
+    Student anil;
+    anil.introduce();
+    whos_this(anil);
+    return 0;
+}
+
+
+```
+
+
+
+
+
+
+
+
+
+
